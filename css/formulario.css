@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.btnContato{
+    color: #5bacdf;
+}
+
+.formulario{
+    align-items: center;
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 20px;
+    color: white;   
+    text-align-last: center;
+}
+
+form{
+    align-items: center;
+    width: 100%;
+    display: grid;
+    justify-content: center; 
+}
+
+label, input{
+    padding: 5px;
+    width: 400px;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
