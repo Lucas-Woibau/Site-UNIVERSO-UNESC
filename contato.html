@@ -13,7 +13,7 @@
     <main>
         <header class="container-cabecalho">
             <div class="logo">
-                <a href="index.html"><h1>Página Inicial</h1><img src="img/LogoPodcast.png" alt="logo"></a>               
+                <a href="index.html"><ion-icon class="icon-home" name="home-outline"></ion-icon></a>
 
             </div><!--Logo-->
             <ul>
@@ -22,6 +22,36 @@
                 <li><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank" class="btn">🔴 AO VIVO</a></li>
             </ul>
         </header><!--Container-Cabecalho-->
+
+        <div class="icon-menu" onclick="abrirMenu()">
+            <span>
+                <ion-icon name="reorder-four-outline"></ion-icon>
+            </span>
+        </div><!--Icone Menu-->
+
+        <aside>
+                       
+            <div id="barra-menu">
+                <div class="icon-voltar" onclick="fecharMenu()">
+                    <span>
+                        <ion-icon class="btnVoltar" name="arrow-forward-outline"></ion-icon>   
+                    </span>
+                </div><!--Icone Menu Voltar-->                        
+                <ul class="links">               
+                    <li><a href="sobre.html">Nossa equipe</a></li>
+                    <li><a href="contato.html">Fale conosco</a></li>
+                    <li><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank" class="btn">🔴 AO VIVO</a></li>               
+                </ul>
+                <div class="C-icon">
+                    <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-youtube"></ion-icon></span>
+                </div><!--C - Icon-->
+                
+            </div><!--Barra Menu-->
+
+        </aside>
+
         <div class="formulario">
             <form action="">
                 <label  for="inputNome">Nome completo:</label>
@@ -36,26 +66,9 @@
                 <button id="btn-enviar">Enviar mensagem</button>
             </form> 
         </div>
-        <aside>
-            <div class="icon-menu" onclick="abrirMenu()">
-                <span>
-                    <ion-icon name="menu-outline"></ion-icon>
-                </span>
-            </div><!--Icone Menu-->
 
-            <div id="barra-menu">
-                <ul class="links">               
-                    <li><a href="sobre.html">Nossa equipe</a></li>
-                    <li><a href="contato.html">Fale conosco</a></li>
-                    <li><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank" class="btn">🔴 AO VIVO</a></li>               
-                </ul>
-                <div class="C-icon">
-                    <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
-                    <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
-                    <span class="icon"><ion-icon name="logo-youtube"></ion-icon></span>
-                </div><!--C - Icon-->
-            </div><!--Barra Menu-->
-
-        </aside>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="app.js"></script>
 </body>
 </html>

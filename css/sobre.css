@@ -151,3 +151,24 @@ p{
         width: 100%;
     }
 }
+
+@media screen and (max-width: 375px){
+    .icon-menu ion-icon {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: right;
+        float: right;
+        margin-top: -50px;
+        margin-right: 10px;
+        color: #ffffff;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: left;
+        float: left;
+        margin-right: 0rem;
+        width: 100%;
+    }
+}

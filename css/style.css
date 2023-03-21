@@ -24,22 +24,14 @@ header{
     width: 100%;
 }
 
-.logo img{
-    width: 70px;
-    height: auto;
-}
-
-.logo h1{
+.icon-home{
+    width: 45px;
+    height: 45px;
+    display: flex;
     float: right;
+    margin-top: 0;
+    margin-right: 150px;
     color: #ffffff;
-    font-size: 1.1rem;
-    font-weight: 350;
-    margin-left: 0.8rem;
-    margin-top: 25.5px;   
-}
-
-.logo h1:hover{
-    color: #5bacdf;
 }
 
 ul{
@@ -267,6 +259,7 @@ footer a:hover{
     }
 
     .logo{
+        color: white;
         display: flex;
         justify-content: left;
         float: left;
