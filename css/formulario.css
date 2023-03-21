@@ -13,10 +13,10 @@
 
 form{
     color: white;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     display: grid;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 label, input{
@@ -31,7 +31,7 @@ textarea{
     padding: 7.5px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 740px) {
     ul{
         display: none;
     }
@@ -40,34 +40,17 @@ textarea{
         padding-top: 25px;
     }
 
-    form{
-        color: white;
-        width: 50%;
-        margin: 0 auto;
-        display: grid;
-        justify-content: center;
-    }
-    
-    label, input{
-        padding: 7.5px;
-        width: 375px;
-        display: inline-block;
-    }
-
     .links{
         display: block;
     }
 
     .logo{
-        margin-right: 30rem;
-    }
-
-    .logo img{      
-        margin-right: 90px;
-    }
-
-    .logo h1{
-        display: none;
+        color: white;
+        display: flex;
+        justify-content: left;
+        float: left;
+        margin-left: 80px;
+        width: 100%;
     }
 
     aside{
@@ -78,8 +61,21 @@ textarea{
         overflow: hidden;
     }
 
+    form{
+        color: white;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .esquerdo{
+        margin-left: 30px;
+    }
+
     #barra-menu{
         background-color: #2889c2;
+        width: 0px;
         height: 150vh;
         transition: 0.3s all;
     }
@@ -89,8 +85,8 @@ textarea{
         height: 45px;
         display: flex;
         float: right;
-        margin-top: -50px;
-        margin-right: 150px;
+        margin-top: -40px;
+        margin-right: 80px;
         color: #ffffff;
     }
 
@@ -103,7 +99,6 @@ textarea{
     }
 
     #barra-menu ul li a{
-        color: #ffffff;
         text-decoration: none;
         font-size: 1rem;
         width: 100%;
@@ -116,6 +111,7 @@ textarea{
     }
 
     .C-icon{
+        color: #ffffff;
         margin-top: 50%;
         display: flex;
         justify-content: center;
@@ -124,7 +120,6 @@ textarea{
     }
 
     .C-icon span{
-        color: #ffffff;
         font-size: 1rem;
     }
 
@@ -132,11 +127,15 @@ textarea{
         margin-top: 10px;
     }
 
+    ion-icon{
+        color: #ffffff;
+    }
+
     .btnVoltar{
         color: white;
         display: flex;
         position: absolute;
-        margin-top: 80px;
+        margin-top: 60px;
         margin-left: 45px;
         font-size: 30px;
     }
@@ -153,64 +152,104 @@ textarea{
         display: flex;
         justify-content: right;
         float: right;
-        margin-top: -50px;
-        margin-right: 10px;
+        margin-top: -40px;
+        margin-right: 80px;
         color: #ffffff;
     }
 
     .logo{
+        color: white;
         display: flex;
         justify-content: left;
         float: left;
-        margin-right: 30rem;
+        margin-left: 80px;
+        width: 100%;
+    }
+
+    #barra-menu ul{
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        padding: 2.7rem 0px;
+        line-height: 3rem;
+        margin-top: 80px;
+    }
+
+    #barra-menu ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
         width: 100%;
     }
 }
 
-@media screen and (max-width: 400px){
-    .icon-menu ion-icon {
-        width: 45px;
-        height: 45px;
-        display: flex;
-        justify-content: right;
-        float: right;
-        margin-top: -50px;
-        margin-right: 10px;
-        color: #ffffff;
-    }
-
+@media screen and (max-width: 635px) {
     .logo{
         display: flex;
         justify-content: left;
-        float: left;
-        margin-right: 30rem;
+        margin-right: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #barra-menu ul{
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        padding: 2.7rem 0px;
+        line-height: 3rem;
+        margin-top: 80px;
+    }
+
+    #barra-menu ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
         width: 100%;
     }
 }
 
-@media screen and (max-width: 375px){
-    .icon-menu ion-icon {
-        width: 45px;
-        height: 45px;
-        display: flex;
-        justify-content: right;
-        float: right;
-        margin-top: -50px;
-        margin-right: 10px;
-        color: #ffffff;
-    }
-
+@media screen and (max-width: 280px) {
     .logo{
+        color: white;
         display: flex;
         justify-content: left;
         float: left;
-        margin-right: 0rem;
+        margin-left: 50px;
         width: 100%;
     }
-    
-    label, input{
-        padding: 7.5px;
-        width: 250px;
-        display: inline-block;
+
+    .icon-menu ion-icon{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        float: right;
+        margin-top: -40px;
+        margin-right: 50px;
+        color: #ffffff;
     }
+
+    #barra-menu ul{
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        padding: 2.7rem 0px;
+        line-height: 3rem;
+        margin-top: 80px;
+    }
+
+    #barra-menu ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+
+
+label, input{
+    padding: 7.5px;
+    width: 250px;
+    display: inline-block;
 }

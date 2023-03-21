@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+#produtos{
+    justify-content: center;
+    padding-left: 27px;
+}
+
+.cards{ 
+    
+    margin: 25px 15px;
+    position: relative;
+    width: 320px;
+    height: 420px;
+    background: #011927;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.cards:before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #5bacdf;
+    transform: skewY(345deg);
+    transition: 0.5s;
+}
+
+.cards:hover:before{
+    transform: skewY(390deg);
+    top: -70%;
+}
+
+.cards:after{
+    content: 'HEADSET';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 4.9em;
+    color: white;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.cards .imgCamisa{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.cards .imgCamisa img{
+    max-width: 90%;
+    transition: 0.5s;
+}
+.cards:hover .imgCamisa img{
+    max-width: 80%;
+}
+
+.cards .imgCaneca{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.cards .imgCaneca img{
+    max-width: 90%;
+    transition: 0.5s;
+}
+.cards:hover .imgCaneca img{
+    max-width: 80%;
+}
+
+.cards .imgBone{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.cards .imgBone img{
+    max-width: 90%;
+    transition: 0.5s;
+}
+.cards:hover .imgBone img{
+    max-width: 80%;
+}
+
+.cards .imgAlmofada{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.cards .imgAlmofada img{
+    max-width: 90%;
+    transition: 0.5s;
+}
+.cards:hover .imgAlmofada img{
+    max-width: 80%;
+}
+
+.cards .contentBx{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.cards .contentBx h3{
+    font-size: 10px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cards .contentBx .preco{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.cards .contentBx .compra{
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    background: #5bacdf;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.cards:hover .contentBx .compra{
+    top: 0px;
+    opacity: 1;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<!-- SITE DESENVOLVIDO POR LUCAS WOIBAU -->
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" href="img/LogoPodcast.png">
+    <title>Universo UNESC</title>
+</head>
+
+<body>
+    <main>
+        <header class="container-cabecalho">
+            <div class="logo">
+                <a href="index.html"><ion-icon class="icon-home" name="home-outline"></ion-icon></a>
+                
+            </div><!--Logo-->
+            <ul>
+                <li><a class="BtnEquipe" href="sobre.html">Nossa equipe</a></li>
+                <li><a class="BtnContato" href="contato.html">Fale conosco</a></li>
+                <li><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank" class="btn">🔴 AO VIVO</a></li>
+            </ul>
+        </header><!--Container-Cabecalho-->
+
+        <div class="icon-menu" onclick="abrirMenu()">
+            <span>
+                <ion-icon name="reorder-four-outline"></ion-icon>
+            </span>
+        </div><!--Icone Menu-->
+
+        <aside>
+                       
+            <div id="barra-menu">
+                <div class="icon-voltar" onclick="fecharMenu()">
+                    <span>
+                        <ion-icon class="btnVoltar" name="arrow-forward-outline"></ion-icon>   
+                    </span>
+                </div><!--Icone Menu Voltar-->                        
+                <ul class="links">               
+                    <li><a href="sobre.html">Nossa equipe</a></li>
+                    <li><a href="contato.html">Fale conosco</a></li>
+                    <li><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank" class="btn">🔴 AO VIVO</a></li>               
+                </ul>
+                <div class="C-icon">
+                    <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-youtube"></ion-icon></span>
+                </div><!--C - Icon-->
+
+            </div><!--Barra Menu-->
+
+        </aside>
+        <div class="meio">
+            <div class="esquerdo">
+                <div class="titulo">
+                    <h1>Universo UNESC</h1>
+                </div><!--Titulo-->
+
+                <p>Universo UNESC é um podcast informativo e envolvente para aqueles que desejam se<br>
+                    manter atualizados sobre as tendências mais recentes em tecnologia e como elas<br> 
+                    estão moldando o mundo ao nosso redor.</p>
+                    
+                <div class="cta">
+                    <a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank"><button id="aovivo">🔴 AO VIVO</button></a>
+                </div><!--Cta-->
+
+            </div><!--Esquerda-->
+
+            <div class="direita"><img src="img/logoAnim.gif" alt="Logo" href="index.html">
+                     
+        </div><!--Direita-->
+
+        </div><!--Meio-->
+
+    </main>
+    
+    <footer id="rodape">
+        <span class="icon"><a href="https://www.instagram.com/unescoficial/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></span>
+        <span class="icon"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></span>
+        <span class="icon"><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

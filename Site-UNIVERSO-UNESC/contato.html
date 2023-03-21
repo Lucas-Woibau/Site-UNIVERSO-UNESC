@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="img/LogoPodcast.png">
+    <title>Contato</title>
+</head>
+<body>
+    <main>
+        <header class="container-cabecalho">
+            <div class="logo">
+                <a href="index.html"><ion-icon class="icon-home" name="home-outline"></ion-icon></a>
+
+            </div><!--Logo-->
+            <ul>
+                <li><a href="sobre.html">Nossa equipe</a></li>
+                <li><a class="btnContato" href="contato.html">Fale conosco</a></li>
+                <li><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank" class="btn">🔴 AO VIVO</a></li>
+            </ul>
+        </header><!--Container-Cabecalho-->
+
+        <div class="icon-menu" onclick="abrirMenu()">
+            <span>
+                <ion-icon name="reorder-four-outline"></ion-icon>
+            </span>
+        </div><!--Icone Menu-->
+
+        <aside>
+                       
+            <div id="barra-menu">
+                <div class="icon-voltar" onclick="fecharMenu()">
+                    <span>
+                        <ion-icon class="btnVoltar" name="arrow-forward-outline"></ion-icon>   
+                    </span>
+                </div><!--Icone Menu Voltar-->                        
+                <ul class="links">               
+                    <li><a href="sobre.html">Nossa equipe</a></li>
+                    <li><a href="contato.html">Fale conosco</a></li>
+                    <li><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank" class="btn">🔴 AO VIVO</a></li>               
+                </ul>
+                <div class="C-icon">
+                    <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-youtube"></ion-icon></span>
+                </div><!--C - Icon-->
+                
+            </div><!--Barra Menu-->
+
+        </aside>
+
+        <div class="formulario">
+            <form action="">
+                <label  for="inputNome">Nome completo:</label>
+                <input type="text" id="inputNome" placeholder="Digite seu nome completo...">
+
+                <label for="inputEmail">Email:</label>
+                <input type="email" name="textEmail" id="inputEmail" placeholder="Digite seu email...">
+
+                <label for="inputMensagem">Mensagem:</label>
+                <textarea name="inputMensagem" id="inputMensagem" placeholder="Digite sua mensagem..."></textarea>
+
+                <button id="btn-enviar">Enviar mensagem</button>
+            </form> 
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="app.js"></script>
+</body>
+</html>
