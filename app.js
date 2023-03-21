@@ -3,7 +3,7 @@ function abrirMenu() {
     let bodyWidth = document.body.clientWidth;
   
     if (bodyWidth < 400) {
-      BarraMenuAberto.style.width = "140px";
+      BarraMenuAberto.style.width = "200px";
     } 
     else if (BarraMenuAberto.style.width == "0px") {
       BarraMenuAberto.style.width = "284px";
