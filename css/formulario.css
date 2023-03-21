@@ -40,6 +40,12 @@ textarea{
         padding-top: 25px;
     }
 
+    label, input{
+        padding: 7.5px;
+        width: 350px;
+        display: inline-block;
+    }
+
     .links{
         display: block;
     }
@@ -207,6 +213,12 @@ textarea{
         font-size: 15px;
         width: 100%;
     }
+
+    label, input{
+        padding: 7.5px;
+        width: 275px;
+        display: inline-block;
+    }
 }
 
 @media screen and (max-width: 280px) {
@@ -244,12 +256,10 @@ textarea{
         font-size: 15px;
         width: 100%;
     }
-}
 
-
-
-label, input{
-    padding: 7.5px;
-    width: 250px;
-    display: inline-block;
+    label, input{
+        padding: 7.5px;
+        width: 250px;
+        display: inline-block;
+    }
 }
