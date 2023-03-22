@@ -54,15 +54,19 @@
         </aside>
 
         <div class="formulario">
-            <form action="">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <!-- Replace with accesKey sent to your email -->
+                <input type="hidden" name="accessKey" value="f4ce94fa-2c46-4c1b-8499-5ab8c05353be"> <!-- Required -->
+                <input type="hidden" name="redirectTo" value="https://lucas-woibau.github.io/Site-UNIVERSO-UNESC/contato.html">
+
                 <label  for="inputNome">Nome completo:</label>
-                <input type="text" id="inputNome" placeholder="Digite seu nome completo...">
+                <input type="text" id="inputNome" name="name" placeholder="Digite seu nome completo...">
 
                 <label for="inputEmail">Email:</label>
-                <input type="email" name="textEmail" id="inputEmail" placeholder="Digite seu email...">
+                <input type="email" name="email" id="inputEmail" placeholder="Digite seu email...">
 
                 <label for="inputMensagem">Mensagem:</label>
-                <textarea name="inputMensagem" id="inputMensagem" placeholder="Digite sua mensagem..."></textarea>
+                <textarea name="message" id="inputMensagem" placeholder="Digite sua mensagem..."></textarea>
 
                 <button id="btn-enviar">Enviar mensagem</button>
             </form> 
