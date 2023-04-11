@@ -1,4 +1,4 @@
-# Projeto de faculdade na matéria "Multimídia" onde é criado um Podcast. Coube a mim desenvolver um pequeno e simples site para que, talvez, futuramente possa ser utilizado como oficial
+# Projeto de faculdade na matéria "Multimídia" onde é criado um Podcast. Coube a mim desenvolver um pequeno e simples site para que, talvez, futuramente possa ser utilizado como oficial.
 
 ## Ferramentas Utilizadas:
 ### Visual Studio Code
