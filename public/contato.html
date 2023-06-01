@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sobre.css">
-    <link rel="icon" href="img/LogoPodcast.png">
-    <title>SOBRE</title>
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="img/UNIVERSO UNESC.png">
+    <title>CONTATO</title>
 </head>
 <body>
     <main>
@@ -18,8 +18,8 @@
 
             </div><!--Logo-->
             <ul>
-                <li><a class="btnEquipe" href="#">Nossa equipe</a></li>
-                <li><a href="contato.html">Fale conosco</a></li>
+                <li><a href="sobre.html">Nossa equipe</a></li>
+                <li><a class="btnContato" href="contato.html">Fale conosco</a></li>
                 <li><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank" class="btn">🔴 AO VIVO</a></li>
             </ul>
         </header><!--Container-Cabecalho-->
@@ -53,13 +53,27 @@
 
         </aside>
 
-        <div id="imagem-equipe">
-            <img src="img/nós.jpeg" width="80%" height="80%">
-            <!--<p>Carlos, Lucas Woibau, Lorenzo, Lucas Baldan, Pedro, Gleydson, Victor, Breno, Tharlys, Luan, Dhiol, Yuri, Werick e Professor Yan.</p>-->
+        <div class="formulario">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <!-- Replace with accesKey sent to your email -->
+                <input type="hidden" name="accessKey" value="f4ce94fa-2c46-4c1b-8499-5ab8c05353be"> <!-- Required -->
+                <input type="hidden" name="redirectTo" value="https://lucas-woibau.github.io/Site-UNIVERSO-UNESC/contato.html">
+
+                <label  for="inputNome">Nome completo:</label>
+                <input type="text" id="inputNome" name="name" placeholder="Digite seu nome completo...">
+
+                <label for="inputEmail">Email:</label>
+                <input type="email" name="email" id="inputEmail" placeholder="Digite seu email...">
+
+                <label for="inputMensagem">Mensagem:</label>
+                <textarea name="message" id="inputMensagem" placeholder="Digite sua mensagem..."></textarea>
+
+                <button id="btn-enviar">Enviar mensagem</button>
+            </form> 
         </div>
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <script src="app.js"></script>
+        <script src="scripts/app.js"></script>
 </body>
 </html>
