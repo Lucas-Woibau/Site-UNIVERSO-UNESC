@@ -27,4 +27,6 @@ function abrirMenu() {
       BarraMenuFechado.style.width = "284px";
     }
   }
+
+  
   
