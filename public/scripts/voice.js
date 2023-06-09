@@ -7,11 +7,15 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
     // Mapeamento de correspondência entre os nomes das abas e as ações
     var menuItems = [
       { name: 'início', action: 'index.html' },
+      { name: 'inicial', action: 'index.html' },
+      { name: 'voltar', action: 'index.html' },
       { name: 'equipe', action: 'sobre.html' },
+      { name: 'sobre', action: 'sobre.html' },
       { name: 'contato', action: 'contato.html' },
       { name: 'facebook', action: 'https://www.facebook.com/UNESC.ES/?locale=pt_BR' },
       { name: 'instagram', action: 'https://www.instagram.com/universounesc/' },
       { name: 'youtube', action: 'https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q' },
+      { name: 'canal', action: 'https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q' },
       { name: 'ao vivo', action: 'https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q' }
       // Adicione mais itens do menu conforme necessário
     ];
