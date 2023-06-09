@@ -1,5 +1,5 @@
 # Projeto de faculdade na matéria "Multimídia" onde é criado um Podcast. Coube a mim desenvolver um pequeno e simples site para que, talvez, futuramente possa ser utilizado como oficial.
-
+## Com acessibilidade com voz e ocular
 ## Ferramentas Utilizadas:
 ### Visual Studio Code
 ### HTML5 | CSS3 | JAVASCRIPT | CANVA
