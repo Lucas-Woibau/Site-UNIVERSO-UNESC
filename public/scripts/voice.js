@@ -76,6 +76,10 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
       }
     };
   
+    // Configurações adicionais para dispositivos móveis
+    recognition.interimResults = true; // Habilita resultados intermediários
+    recognition.maxAlternatives = 1; // Define o número máximo de alternativas para transcrição
+  
     startRecognition();
   } else {
     console.log('Reconhecimento de voz não suportado no navegador.');
