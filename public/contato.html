@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+    <!-- SITE DESENVOLVIDO POR LUCAS WOIBAU -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="img/UNIVERSO UNESC.png">
+    <title>CONTATO</title>
+</head>
+
+<body>
+    <main>
+        <header class="container-cabecalho">
+            <div class="logo">
+                <a href="index.html"><ion-icon class="icon-home" name="home-outline"></ion-icon></a>
+
+            </div><!--Logo-->
+            <ul>
+                <li><a href="sobre.html">Equipe</a></li>
+                <li><a class="btnContato" href="contato.html">Contato</a></li>
+                <li><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank" class="btn">🔴 AO VIVO</a></li>
+            </ul>
+        </header><!--Container-Cabecalho-->
+
+        <div class="icon-menu" onclick="abrirMenu()">
+            <span>
+                <ion-icon name="reorder-four-outline"></ion-icon>
+            </span>
+        </div><!--Icone Menu-->
+
+        <aside>
+                       
+            <div id="barra-menu">
+                <div class="icon-voltar" onclick="fecharMenu()">
+                    <span>
+                        <ion-icon class="btnVoltar" name="arrow-forward-outline"></ion-icon>   
+                    </span>
+                </div><!--Icone Menu Voltar-->                        
+                <ul class="links">               
+                    <li><a href="sobre.html">Nossa equipe</a></li>
+                    <li><a href="contato.html">Fale conosco</a></li>
+                    <li><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank" class="btn">🔴 AO VIVO</a></li>               
+                </ul>
+                <div class="C-icon">
+                    <span class="icon"><a href="https://www.instagram.com/unesc_es/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></span>
+                    <span class="icon"><a href="https://www.facebook.com/UNESC.ES/?locale=pt_BR" target="_blank"><ion-icon name="logo-facebook"></a></ion-icon></span>
+                    <span class="icon"><a href="https://www.youtube.com/channel/UChMZ78lFNEahIVMCh8IN69Q" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></span>
+                </div><!--C - Icon-->
+                
+            </div><!--Barra Menu-->
+
+        </aside>
+
+        <div class="formulario">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <!-- Replace with accesKey sent to your email -->
+                <input type="hidden" name="accessKey" value="f4ce94fa-2c46-4c1b-8499-5ab8c05353be"> <!-- Required -->
+                <input type="hidden" name="redirectTo" value="https://lucas-woibau.github.io/Site-UNIVERSO-UNESC/contato.html">
+
+                <label  for="inputNome">Nome completo:</label>
+                <input type="text" id="inputNome" name="name" placeholder="Digite seu nome completo...">
+
+                <label for="inputEmail">Email:</label>
+                <input type="email" name="email" id="inputEmail" placeholder="Digite seu email...">
+
+                <label for="inputMensagem">Mensagem:</label>
+                <textarea name="message" id="inputMensagem" placeholder="Digite sua mensagem..."></textarea>
+
+                <button id="btn-enviar">Enviar mensagem</button>
+            </form> 
+        </div>
+        <footer></footer>
+        <img id="legenda" src="legenda.png" width="50%">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/voice.js"></script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.btnContato{
+    color: #5bacdf;
+}
+
+form{
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-around;
+}
+
+label, input{
+    padding: 7.5px;
+    width: 500px;
+    display: inline-block;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+    padding: 7.5px;
+}
+
+@media screen and (max-width: 740px) {
+    ul{
+        display: none;
+    }
+
+    li{
+        padding-top: 25px;
+    }
+
+    label, input{
+        padding: 7.5px;
+        width: 350px;
+        display: inline-block;
+    }
+
+    .links{
+        display: block;
+    }
+
+    .logo{
+        color: white;
+        display: flex;
+        justify-content: left;
+        float: left;
+        margin-left: 80px;
+        width: 100%;
+    }
+
+    aside{
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        overflow: hidden;
+    }
+
+    form{
+        color: white;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .esquerdo{
+        margin-left: 30px;
+    }
+
+    #barra-menu{
+        background-color: #2889c2;
+        width: 0px;
+        height: 150vh;
+        transition: 0.3s all;
+    }
+
+    .icon-menu ion-icon{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        float: right;
+        margin-top: -40px;
+        margin-right: 80px;
+        color: #ffffff;
+    }
+
+    #barra-menu ul{
+        align-items: center;
+        text-align: center;
+        padding: 4.7rem;
+        line-height: 5rem;
+        margin-top: 80px;
+    }
+
+    #barra-menu ul li a{
+        text-decoration: none;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    #barra-menu ul li a:hover{
+        padding: 8px;
+        border-radius: 15px;
+        background-color: #5bacdf;
+    }
+
+    .C-icon{
+        color: #ffffff;
+        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        overflow: hidden;
+    }
+
+    .C-icon span{
+        font-size: 1rem;
+    }
+
+    .icon-inner{
+        margin-top: 10px;
+    }
+
+    ion-icon{
+        color: #ffffff;
+    }
+
+    .btnVoltar{
+        color: white;
+        display: flex;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 45px;
+        font-size: 30px;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .icon-menu ion-icon {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: right;
+        float: right;
+        margin-top: -40px;
+        margin-right: 80px;
+        color: #ffffff;
+    }
+
+    .logo{
+        color: white;
+        display: flex;
+        justify-content: left;
+        float: left;
+        margin-left: 80px;
+        width: 100%;
+    }
+
+    #barra-menu ul{
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        padding: 2.7rem 0px;
+        line-height: 3rem;
+        margin-top: 80px;
+    }
+
+    #barra-menu ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .logo{
+        display: flex;
+        justify-content: left;
+        margin-right: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #barra-menu ul{
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        padding: 2.7rem 0px;
+        line-height: 3rem;
+        margin-top: 80px;
+    }
+
+    #barra-menu ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    label, input{
+        padding: 7.5px;
+        width: 275px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .logo{
+        color: white;
+        display: flex;
+        justify-content: left;
+        float: left;
+        margin-left: 50px;
+        width: 100%;
+    }
+
+    .icon-menu ion-icon{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        float: right;
+        margin-top: -40px;
+        margin-right: 50px;
+        color: #ffffff;
+    }
+
+    #barra-menu ul{
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        padding: 2.7rem 0px;
+        line-height: 3rem;
+        margin-top: 80px;
+    }
+
+    #barra-menu ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    label, input{
+        padding: 7.5px;
+        width: 250px;
+        display: inline-block;
+    }
+}
