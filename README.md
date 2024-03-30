@@ -1,21 +1,21 @@
-# Projeto de faculdade na matéria "Multimídia".
-## Com acessibilidade com voz
-## Ferramentas Utilizadas:
-### Visual Studio Code
-### HTML5 | CSS3 | JAVASCRIPT | CANVA
+# Sobre o projeto
+Site responviso com acessibilidade por voz desenvolvido por mim para obtenção de nota em sala de aula.
 
-## Logo:
-<img src="https://github.com/Lucas-Woibau/Site-UNIVERSO-UNESC/blob/master/img/logoAnim.gif?raw=true" width=100px>
+# Layout web
+![web](https://github.com/Lucas-Woibau/Site-UNIVERSO-UNESC/blob/master/public/Tela%20Inicial%20(PC).png?raw=true)
 
-## Página Inicial:
-<img src="https://github.com/Lucas-Woibau/Site-UNIVERSO-UNESC/blob/master/public/Tela%20Inicial%20(PC).png?raw=true">
+# Layout mobile
+![mobile 1](https://github.com/Lucas-Woibau/Site-UNIVERSO-UNESC/blob/master/public/Tela%20Inicial%20(Mobile).png?raw=true) ![mobile 2](https://github.com/Lucas-Woibau/Site-UNIVERSO-UNESC/blob/master/public/Menu%20responsivo.png?raw=true)
 
-<div align="center">
+# Como utilizar a acessibilidade por voz
+- Dar permissão ao navegador para acessar o microfone
+- Falar o nome da página onde deseja ir (Por exemplo: Fale "contato" para acessar a página Contato)
 
-  ## Página Inicial no Mobile:
-  <img src="https://github.com/Lucas-Woibau/Site-UNIVERSO-UNESC/blob/master/public/Tela%20Inicial%20(Mobile).png?raw=true">
-
-  ## Menu Responsivo:
-  <img src="https://github.com/Lucas-Woibau/Site-UNIVERSO-UNESC/blob/master/public/Menu%20responsivo.png?raw=true">
-  
-</div>
+# Tecnologias utilizadas
+## Front end
+- Html5 
+- Css3 
+- JavaScript
+- Web Speech API
+## Design 
+- Canva
